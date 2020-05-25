@@ -4,14 +4,14 @@ import * as sapper from '@sapper/server';
 
 const { PORT } = process.env;
 
+let blobContentType = 'application/octet-stream';
+
 function setHeaders(res, path) {
   if (path.match(/(png|jpe?g|webp|gif|pdf)$/)) {
     res.setHeader('Content-Type', blobContentType);
     res.setHeader('Cache-Control', 'no-store');
   }
 }
-
-let blobContentType = 'application/octet-stream';
 
 const app = express();
 
