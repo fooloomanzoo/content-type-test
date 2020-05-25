@@ -1,7 +1,5 @@
 import express from 'express';
 import http from 'http';
-import send from 'send';
-import parseUrl from 'parseurl';
 import * as sapper from '@sapper/server';
 
 const { PORT } = process.env;
