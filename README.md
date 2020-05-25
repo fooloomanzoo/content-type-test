@@ -1,5 +1,5 @@
 ## Content-Type and HTML-Elements
-Sample project to test content-types on different HTML-Elements using an node-express-server and sapper-framework.
+Sample project how different HTML-Elements handling different content-types without specific clientside configuration using an node-express-server and sapper-framework.
 
 ### install
 ```
