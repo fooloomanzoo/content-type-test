@@ -17,6 +17,6 @@ or
 ```
 and open ```http://localhost:3000```
 
-###Preview
+### Preview
 
 ![Preview](preview/sample.png)
