@@ -1,9 +1,9 @@
 {
 	"background_color": "#ffffff",
 	"theme_color": "#333333",
-	"name": "octet-stream-test",
-	"short_name": "octet-stream-test",
-	"display": "octet-stream-test",
+	"name": "content-type test",
+	"short_name": "content-type test",
+	"display": "content-type test",
 	"start_url": "/",
 	"icons": [
 		{
