@@ -10,13 +10,13 @@
 
 	.container {
 		display: flex;
-		flex-flow: row wrap;
-		width: 100%;
+		flex-direction: row;
+		flex-wrap: wrap;
 	}
 
 	.entry {
 		display: flex;
-		flex-flow: column;
+		flex-direction: column;
 		flex: 1 1 25%;
 		min-width: 400px;
 		box-sizing: border-box;

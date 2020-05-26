@@ -32,6 +32,7 @@
 <style>
   nav {
     display: flex;
+    flex-flow: row nowrap;
     border-bottom: 1px solid rgba(240, 16, 128, 0.1);
     padding: 1em 2em;
   }
@@ -44,6 +45,8 @@
     font-size: inherit;
     padding: 0 0.5em;
     margin: 0 1em;
+    border-radius: 0.3em;
+    cursor: pointer;
   }
 </style>
 
